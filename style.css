@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #35424a;
+    height: 80px;
+    border-bottom: 2px solid #64afd3;
+  }
+  .left h1 {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 1rem;
+    color: #64afd3;
+  }
+  .right a {
+    color: white;
+    text-decoration: none;
+    padding-right: 1rem;
+    font-weight: 600;
+  }
+  nav .home {
+    color: #64afd3;
+  }
+  span {
+    color: white;
+  }
+  .prof {
+    background-image: url(./img/arkaplan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 360px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .prof h1 {
+    font-size: 2.5rem;
+  }
+  .prof p {
+    padding-top: 2rem;
+  }
+  .subs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #35424a;
+    color: white;
+    padding: 1.5rem;
+  }
+  input {
+    height: 1.7rem;
+  }
+  .btn {
+    width: 6rem;
+    background-color: #e8491d;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+  }
+  .hcg {
+    display: flex;
+    height: 11rem;
+    justify-content: space-around;
+    margin-top: 3rem;
+  }
+  .left-img,
+  .center-img,
+  .right-img {
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+  .hcg img {
+    height: 6rem;
+  }
+  footer {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+    height: 10rem;
+    font-size: 1.1rem;
+    padding: 1.6rem;
+  }
+  footer img {
+    width: 13rem;
+    margin-top: 0.8rem;
+  }

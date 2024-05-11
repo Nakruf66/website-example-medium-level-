@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #35424a;
+    height: 80px;
+    border-bottom: 2px solid #64afd3;
+  }
+  .left h1 {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 1rem;
+    color: #64afd3;
+  }
+  .right a {
+    color: white;
+    text-decoration: none;
+    padding-right: 1rem;
+    font-weight: 600;
+  }
+  nav .about {
+    color: #64afd3;
+  }
+  span {
+    color: white;
+  }
+  
+  .subs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #35424a;
+    color: white;
+    padding: 1.5rem;
+  }
+  input {
+    height: 1.7rem;
+  }
+  .btn {
+    width: 6rem;
+    background-color: #e8491d;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+  }
+  section {
+    display: flex;
+  }
+  .par-left {
+    padding: 0 4rem;
+    margin-top: 3rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  .par1 {
+    padding: 1rem 0;
+  }
+  .par2 {
+    background-color: #35424a;
+    color: white;
+    padding: 1rem;
+    font-weight: 600;
+  }
+  .par-right {
+    background-color: #35424a;
+    color: white;
+    padding: 1rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+  }
+  .par-left p {
+    font-size: 1.1rem;
+  }
+  .par-right p {
+    font-size: 1.1rem;
+  }
+  .par-right h3 {
+    padding: 1.5rem 0;
+  }
+  main {
+    height: 30rem;
+  }
+  
+  footer {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+    height: 10rem;
+    font-size: 1.1rem;
+    padding: 1.6rem;
+  }
+  footer img {
+    width: 13rem;
+    margin-top: 0.8rem;
+  }
